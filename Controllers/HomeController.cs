@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using IMDBLite.Models;
 
 namespace IMDBLite.Controllers;
-
+[Route("[action]")]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
